@@ -20,19 +20,19 @@
   "type": "object",
 
   "allOf": [{
-    "$ref": "https://example.com/schemas/com-example-base-2018-03-01"
+    "$ref": "https://retrosight.github.io/schemas/com-example-base-2018-03-01"
   }],
 
   "anyOf": [{
-    "$ref": "https://example.com/schemas/com-example-base-2018-03-01"
+    "$ref": "https://retrosight.github.io/schemas/com-example-base-2018-03-01"
   }],
 
   "oneOf": [{
-    "$ref": "https://example.com/schemas/com-example-base-2018-03-01"
+    "$ref": "https://retrosight.github.io/schemas/com-example-base-2018-03-01"
   }],
 
   "not": {
-    "$ref": "https://example.com/schemas/com-example-base-2018-03-01"
+    "$ref": "https://retrosight.github.io/schemas/com-example-base-2018-03-01"
   },
 
   "comment": "`default` and `enum` are available for all instance types.",
@@ -89,7 +89,7 @@
 
     "keyNameWithDefinitionInternal": { "$ref": "#/definitions/keyNameDefinition" },
 
-    "keyNameWithDefinitionExternal": { "$ref": "https://example.com/schemas/common#/definitions/dateTime" },
+    "keyNameWithDefinitionExternal": { "$ref": "https://retrosight.github.io/schemas/common#/definitions/dateTime" },
 
     "keyNameArraySingleItems": {
       "type": "array",
@@ -117,7 +117,7 @@
 
     "keyNameArrayReference": {
       "type": "array",
-      "items": { "$ref": "https://example.com/schemas/com-example-base-2018-03-01" }
+      "items": { "$ref": "https://retrosight.github.io/schemas/com-example-base-2018-03-01" }
     },
 
     "keyNameObject": { "type": "object" },

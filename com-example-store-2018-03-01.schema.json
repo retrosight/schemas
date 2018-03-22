@@ -1,10 +1,10 @@
 {
-  "$id": "https://example.com/schemas/com-example-store-2018-03-01",
+  "$id": "https://retrosight.github.io/schemas/com-example-store-2018-03-01",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Store Schema Version 2018-03-01",
   "description": "A single store for example: grocery store.",
   "type": "object",
-  "anyOf": [ { "$ref": "https://example.com/schemas/com-example-base-2018-03-01" } ],
+  "anyOf": [ { "$ref": "https://retrosight.github.io/schemas/com-example-base-2018-03-01" } ],
   "properties": {
     "storeName": { "type": "string" },
     "storePhone": { "type": "string" }
