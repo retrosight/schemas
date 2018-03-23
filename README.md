@@ -1,5 +1,7 @@
 # schemas
 
+Find the JSON version of this document at [index.json](.\index.json).
+
 * [com-example-aisle-2018-03-01.schema.json](.\com-example-aisle-2018-03-01.schema.json)
 * [com-example-base-2018-03-01.schema.json](.\com-example-base-2018-03-01.schema.json)
 * [com-example-common-2018-03-01.schema.json](.\com-example-common-2018-03-01.schema.json)
